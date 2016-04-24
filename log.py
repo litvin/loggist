@@ -4,7 +4,7 @@
 import sys,  pprint, re, os, mysql.connector
 from datetime import date, datetime, timedelta
 
-DIRNAME="/usr/local/XPGK/billing/"
+DIRNAME=""
 SERVERNAME=""
 PREFIX=""
 
