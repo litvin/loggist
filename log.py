@@ -5,10 +5,10 @@ import sys,  pprint, re, os, mysql.connector
 from datetime import date, datetime, timedelta
 
 DIRNAME="/usr/local/XPGK/billing/"
-SERVERNAME="corp"
+SERVERNAME=""
 PREFIX=""
 
-cnx = mysql.connector.connect(user='loggist', password='', host='db2.avantel.ru', database='loggist')
+cnx = mysql.connector.connect(user='', password='', host='', database='')
 
 ddd = {
 'LOG-NAME':'',
